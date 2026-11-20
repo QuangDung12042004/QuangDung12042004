@@ -94,14 +94,3 @@
 - **Extensible Boundaries:** Formulated service modules around Bounded Contexts, ready to migrate into standalone microservices.
 - **Tech Stack:** `C#`, `.NET 8`, `Clean Architecture`, `CQRS`, `MSSQL`, `EF Core`
 
----
-
-### 📊 GitHub Activity & Insights
-
-<div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=QuangDung12042004&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Stats" />
-  &nbsp;&nbsp;
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=QuangDung12042004&layout=compact&theme=tokyonight&hide_border=true&border_radius=8" alt="Top Languages" />
-</div>
-
-<br>
