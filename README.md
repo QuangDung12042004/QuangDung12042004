@@ -4,14 +4,7 @@
 
   <a href="https://github.com/QuangDung12042004">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Backend+Software+Developer+%E2%80%A2+.NET+8+%26+C%23;Architecting+Scalable+Microservices+%26+Distributed+Systems;Clean+Architecture+%E2%80%A2+CQRS+%E2%80%A2+Event-Driven+Design;Ho+Chi+Minh+City%2C+Vietnam+%F0%9F%87%BB%F0%9F%87%B3" alt="Typing SVG" />
-  </a>
-
-  <p>
-    <b>Backend Software Engineer &bull; .NET 8 / C# &bull; Distributed Systems</b>
-    <br>
-    <i>Architecting resilient microservices, high-throughput APIs, and enterprise-grade platforms.</i>
-  </p>
-
+  </a
   <p>
     <a href="https://linkedin.com/in/gnud1204" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
