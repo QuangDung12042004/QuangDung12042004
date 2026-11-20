@@ -1,6 +1,10 @@
 <div align="center">
 
-  <h1>Hi, I'm Lương Quang Dũng (Gnud) 👋</h1>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1e1b4b,100:0891b2&height=210&section=header&text=LUONG%20QUANG%20DUNG&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Gnud%20%E2%80%A2%20Backend%20Software%20Developer&descAlignY=62&descSize=18&animation=fadeIn" alt="Header Banner" />
+
+  <a href="https://github.com/QuangDung12042004">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Backend+Software+Developer+%E2%80%A2+.NET+8+%26+C%23;Architecting+Scalable+Microservices+%26+Distributed+Systems;Clean+Architecture+%E2%80%A2+CQRS+%E2%80%A2+Event-Driven+Design;Ho+Chi+Minh+City%2C+Vietnam+%F0%9F%87%BB%F0%9F%87%B3" alt="Typing SVG" />
+  </a>
 
   <p>
     <b>Backend Software Engineer &bull; .NET 8 / C# &bull; Distributed Systems</b>
