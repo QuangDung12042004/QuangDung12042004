@@ -1,86 +1,167 @@
+<!-- ==================== FUTURISTIC HEADER ==================== -->
 <div align="center">
-  <h1>Hi there, I'm Lương Quang Dũng (Gnud) 👋</h1>
-  <h3>Backend Software Developer (.NET 8 / C# / Microservices)</h3>
-  <p>Building scalable backend architectures, distributed systems & modern React applications. Based in Ho Chi Minh City, Vietnam.</p>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1e1b4b,100:0891b2&height=210&section=header&text=LUONG%20QUANG%20DUNG&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Gnud%20%E2%80%A2%20Backend%20Software%20Developer&descAlignY=62&descSize=18&animation=fadeIn" alt="Header Banner" />
 
+  <a href="https://github.com/QuangDung12042004">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Backend+Software+Developer+%E2%80%A2+.NET+8+%26+C%23;Architecting+Scalable+Microservices+%26+Distributed+Systems;Clean+Architecture+%E2%80%A2+CQRS+%E2%80%A2+Event-Driven+Design;Ho+Chi+Minh+City%2C+Vietnam+%F0%9F%87%BB%F0%9F%87%B3" alt="Typing SVG" />
+  </a>
+
+  <br/>
+
+  <!-- Connect Badges (Unified Sleek Dark Theme) -->
   <p>
-    <a href="mailto:quangdung12042004@gmail.com">
-      <img src="https://img.shields.io/badge/Email-quangdung12042004%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-    </a>
     <a href="https://linkedin.com/in/gnud1204">
-      <img src="https://img.shields.io/badge/LinkedIn-gnud1204-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+      <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=38BDF8" alt="LinkedIn" />
+    </a>
+    <a href="mailto:quangdung12042004@gmail.com">
+      <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
     </a>
     <a href="https://instagram.com/gnud.1204">
-      <img src="https://img.shields.io/badge/Instagram-gnud.1204-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+      <img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" />
     </a>
     <a href="https://facebook.com/quangdung123456">
-      <img src="https://img.shields.io/badge/Facebook-quangdung123456-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
+      <img src="https://img.shields.io/badge/Facebook-0D1117?style=for-the-badge&logo=facebook&logoColor=1877F2" alt="Facebook" />
     </a>
   </p>
 </div>
 
 ---
 
-### 👨‍💻 About Me
+<!-- ==================== SYSTEM PROFILE (C# STYLE) ==================== -->
+### ⚡ System Profile
 
-- 🔭 Currently working as a **Software Developer Intern**, focusing on enterprise hotel management & microservices platforms.
-- 🏗️ Passionate about **Clean Architecture**, **CQRS**, **Distributed Systems**, and high-concurrency API design.
-- 🌱 Continuously deepening expertise in **Event-Driven Architecture**, **Docker**, and **CI/CD pipelines**.
-- ⚡ Outside of coding: Strength training & competitive PC gaming.
+```csharp
+namespace Gnud.Profile;
 
----
+public sealed record DeveloperProfile
+{
+    public string Name         => "Lương Quang Dũng (Gnud)";
+    public string Role         => "Backend Software Developer";
+    public string CurrentFocus => "Enterprise Hotel Management & Microservices Platforms";
+    public string Location     => "Ho Chi Minh City, Vietnam";
 
-### 🛠️ Tech Stack & Tools
+    public string[] CoreArchitecture =>
+    [
+        "Clean Architecture",
+        "CQRS & Modular Monolith / Microservices",
+        "High-Concurrency & Resilient API Design",
+        "Event-Driven Architecture"
+    ];
 
-**Backend & Architecture**
-<p>
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/>
-  <img src="https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET 8"/>
-  <img src="https://img.shields.io/badge/EF%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="EF Core"/>
-  <img src="https://img.shields.io/badge/Dapper-00599C?style=for-the-badge&logo=nuget&logoColor=white" alt="Dapper"/>
-  <img src="https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge&logo=docker&logoColor=white" alt="Microservices"/>
-  <img src="https://img.shields.io/badge/Clean%20Architecture-2E7D32?style=for-the-badge" alt="Clean Architecture"/>
-  <img src="https://img.shields.io/badge/CQRS-0277BD?style=for-the-badge" alt="CQRS"/>
-  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
-</p>
+    public string[] Roadmap =>
+    [
+        "Cloud-Native Distributed Systems",
+        "Message-Driven Workflows (RabbitMQ)",
+        "Containerization & Automated CI/CD Pipelines"
+    ];
 
-**Database & Message Broker**
-<p>
-  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="MSSQL"/>
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ"/>
-</p>
-
-**Frontend**
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
-  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux"/>
-  <img src="https://img.shields.io/badge/TanStack%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Query"/>
-</p>
-
-**DevOps & Tools**
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual Studio"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-</p>
+    public string[] OfflineMode => ["Strength Training", "Competitive PC Gaming"];
+}
+```
 
 ---
 
-### 🚀 Featured Projects
+<!-- ==================== CORE ARCHITECTURE & TECH RADAR ==================== -->
+### 🛠️ Tech Stack & Engineering Radar
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **[HotelSystems](https://github.com/QuangDung12042004/HotelSystems)** | Enterprise Hotel Management & POS System built with Microservices architecture, YARP API Gateway, optimistic concurrency handling (`RowVersion`), and rate limiting. | `.NET 8`, `EF Core`, `Dapper`, `MSSQL`, `YARP`, `React` |
-| **[NexusCommerce](https://github.com/QuangDung12042004/NexusCommerce)** | Scalable e-commerce backend platform designed with Clean Architecture, CQRS, and modular service boundaries. | `C#`, `.NET 8`, `Clean Architecture`, `MSSQL` |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4 align="center">⚙️ Backend & Architecture</h4>
+      <p align="center">
+        <img src="https://img.shields.io/badge/C%23-0D1117?style=for-the-badge&logo=csharp&logoColor=239120" alt="C#"/>
+        <img src="https://img.shields.io/badge/.NET%208-0D1117?style=for-the-badge&logo=dotnet&logoColor=A855F7" alt=".NET 8"/>
+        <img src="https://img.shields.io/badge/EF%20Core-0D1117?style=for-the-badge&logo=dotnet&logoColor=38BDF8" alt="EF Core"/>
+        <img src="https://img.shields.io/badge/Dapper-0D1117?style=for-the-badge&logo=nuget&logoColor=0078D7" alt="Dapper"/>
+        <img src="https://img.shields.io/badge/Microservices-0D1117?style=for-the-badge&logo=docker&logoColor=FF6F00" alt="Microservices"/>
+        <img src="https://img.shields.io/badge/Clean%20Architecture-0D1117?style=for-the-badge&logoColor=22C55E" alt="Clean Architecture"/>
+        <img src="https://img.shields.io/badge/CQRS-0D1117?style=for-the-badge&logoColor=38BDF8" alt="CQRS"/>
+        <img src="https://img.shields.io/badge/JWT%20Auth-0D1117?style=for-the-badge&logo=jsonwebtokens&logoColor=FB015B" alt="JWT"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4 align="center">🗄️ Data, Messaging & DevOps</h4>
+      <p align="center">
+        <img src="https://img.shields.io/badge/SQL%20Server-0D1117?style=for-the-badge&logo=microsoftsqlserver&logoColor=CC2927" alt="MSSQL"/>
+        <img src="https://img.shields.io/badge/RabbitMQ-0D1117?style=for-the-badge&logo=rabbitmq&logoColor=FF6600" alt="RabbitMQ"/>
+        <img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker"/>
+        <img src="https://img.shields.io/badge/GitHub%20Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=38BDF8" alt="GitHub Actions"/>
+        <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032" alt="Git"/>
+        <img src="https://img.shields.io/badge/Visual%20Studio-0D1117?style=for-the-badge&logo=visualstudio&logoColor=A855F7" alt="Visual Studio"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h4 align="center">🎨 Frontend Ecosystem</h4>
+      <p align="center">
+        <img src="https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/Vite-0D1117?style=for-the-badge&logo=vite&logoColor=A855F7" alt="Vite"/>
+        <img src="https://img.shields.io/badge/Tailwind%20CSS-0D1117?style=for-the-badge&logo=tailwind-css&logoColor=38BDF8" alt="Tailwind CSS"/>
+        <img src="https://img.shields.io/badge/Redux-0D1117?style=for-the-badge&logo=redux&logoColor=764ABC" alt="Redux"/>
+        <img src="https://img.shields.io/badge/TanStack%20Query-0D1117?style=for-the-badge&logo=reactquery&logoColor=FF4154" alt="TanStack Query"/>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 📊 GitHub Stats
+<!-- ==================== FEATURED SYSTEMS ==================== -->
+### 🚀 Featured Systems
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏨 <a href="https://github.com/QuangDung12042004/HotelSystems">HotelSystems</a></h3>
+      <p><sub><b>Enterprise Hotel Management & POS Platform</b></sub></p>
+      <ul>
+        <li>Built on a scalable <b>Microservices</b> architecture with <b>YARP API Gateway</b>.</li>
+        <li>Handles high-concurrency bookings via <b>Optimistic Concurrency (<code>RowVersion</code>)</b>.</li>
+        <li>Protected with built-in <b>Rate Limiting</b> & hybrid <b>EF Core + Dapper</b> data access.</li>
+      </ul>
+      <p>
+        <code>.NET 8</code> <code>EF Core</code> <code>Dapper</code> <code>MSSQL</code> <code>YARP</code> <code>React</code>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛒 <a href="https://github.com/QuangDung12042004/NexusCommerce">NexusCommerce</a></h3>
+      <p><sub><b>Scalable E-Commerce Backend Platform</b></sub></p>
+      <ul>
+        <li>Engineered with <b>Clean Architecture</b> for strict separation of concerns.</li>
+        <li>Implements <b>CQRS</b> pattern to optimize read/write scalability & maintainability.</li>
+        <li>Designed with clear <b>modular service boundaries</b> ready for distributed growth.</li>
+      </ul>
+      <p>
+        <code>C#</code> <code>.NET 8</code> <code>Clean Architecture</code> <code>CQRS</code> <code>MSSQL</code>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+<!-- ==================== TELEMETRY & ANALYTICS ==================== -->
+### 📊 Engineering Telemetry
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=QuangDung12042004&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=QuangDung12042004&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=QuangDung12042004&show_icons=true&bg_color=0d1117&title_color=38bdf8&icon_color=a855f7&text_color=c9d1d9&border_color=30363d&border_radius=10" alt="GitHub Stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=QuangDung12042004&layout=compact&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&border_color=30363d&border_radius=10" alt="Top Languages" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=QuangDung12042004&background=0d1117&border=30363d&ring=38bdf8&fire=a855f7&currStreakLabel=38bdf8&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff&border_radius=10" alt="GitHub Streak" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=QuangDung12042004&bg_color=0d1117&color=38bdf8&line=a855f7&point=ffffff&area=true&area_color=38bdf8&border_color=30363d&radius=10" alt="Contribution Graph" />
+</div>
+
+<!-- ==================== FOOTER ==================== -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:1e1b4b,100:0d1117&height=100&section=footer" alt="Footer Banner" />
 </div>
