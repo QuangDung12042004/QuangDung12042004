@@ -1,15 +1,31 @@
 <div align="center">
 
-  <!-- DÒNG TITLE NEON HI-TECH ANIMATION -->
+  <div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1e1b4b,100:0891b2&height=210&section=header&text=LUONG%20QUANG%20DUNG&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Gnud%20%E2%80%A2%20Backend%20Software%20Developer&descAlignY=62&descSize=18&animation=fadeIn" alt="Header Banner" />
+
   <a href="https://github.com/QuangDung12042004">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=34&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=750&height=60&lines=L%C6%AF%C6%A0NG+QUANG+D%C5%A8NG;BACKEND+ENGINEER;DISTRIBUTED+SYSTEMS" alt="Typing Name" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Backend+Software+Developer+%E2%80%A2+.NET+8+%26+C%23;Architecting+Scalable+Microservices+%26+Distributed+Systems;Clean+Architecture+%E2%80%A2+CQRS+%E2%80%A2+Event-Driven+Design;Ho+Chi+Minh+City%2C+Vietnam+%F0%9F%87%BB%F0%9F%87%B3" alt="Typing SVG" />
   </a>
 
-  <p align="center">
-    <b>.NET 8 &bull; C# &bull; Microservices &bull; High Concurrency Architecture</b>
-    <br>
-    <i>Architecting resilient distributed systems & enterprise platforms in Ho Chi Minh City, Vietnam.</i>
+  <br/>
+
+  <!-- Connect Badges (Unified Sleek Dark Theme) -->
+  <p>
+    <a href="https://linkedin.com/in/gnud1204">
+      <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=38BDF8" alt="LinkedIn" />
+    </a>
+    <a href="mailto:quangdung12042004@gmail.com">
+      <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
+    </a>
+    <a href="https://instagram.com/gnud.1204">
+      <img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" />
+    </a>
+    <a href="https://facebook.com/quangdung123456">
+      <img src="https://img.shields.io/badge/Facebook-0D1117?style=for-the-badge&logo=facebook&logoColor=1877F2" alt="Facebook" />
+    </a>
   </p>
+</div>
+
 
   <!-- CONTACT & SOCIAL PILLS -->
   <p align="center">
