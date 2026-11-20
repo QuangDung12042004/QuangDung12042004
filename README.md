@@ -34,24 +34,6 @@
 
 ---
 
-### ⚡ Architectural Mindset & Focus
-
-```yaml
-system:
-  identity: "Lương Quang Dũng (Gnud)"
-  role: "Backend Software Developer"
-  core_stack: [".NET 8", "C#", "ASP.NET Core", "MSSQL", "RabbitMQ"]
-  architecture: ["Clean Architecture", "CQRS", "Microservices", "Event-Driven"]
-  current_mission: "Enterprise Hotel Management & High-Throughput POS Engine"
-  hobbies: ["Strength Training", "Competitive Gaming"]
-```
-
-- 🎯 **Trọng tâm hiện tại:** Thiết kế hệ thống chịu tải cao, tối ưu cơ sở dữ liệu và xử lý tranh chấp dữ liệu (Concurrency Control).
-- 🏗️ **Tiêu chuẩn thiết kế:** Loose Coupling, High Cohesion, Idempotency, Bounded Contexts.
-- 🚀 **Định hướng tiếp theo:** Mở rộng sang Cloud-Native (Docker/K8s), Caching nâng cao (Redis) & Message Streaming.
-
----
-
 ### 🛠️ Tech Stack & Tooling
 
 <div align="center">
@@ -81,54 +63,5 @@ system:
   <code>Optimistic Concurrency</code> &nbsp;&bull;&nbsp;
   <code>Rate Limiting</code>
 </p>
-
----
-
-### 🚀 Production Systems & Featured Repositories
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏨 <a href="https://github.com/QuangDung12042004/HotelSystems">HotelSystems</a></h3>
-      <p><i>Hệ thống quản lý khách sạn và POS quy mô doanh nghiệp với kiến trúc phân tán.</i></p>
-      <ul>
-        <li><b>API Gateway:</b> Tích hợp <b>YARP Gateway</b> để cân bằng tải và bảo mật các endpoint nội bộ.</li>
-        <li><b>Concurrency Lock:</b> Kiểm soát xung đột đặt phòng bằng <b>Optimistic Concurrency (<code>RowVersion</code>)</b>.</li>
-        <li><b>Tối ưu truy vấn:</b> Phối hợp <b>EF Core</b> cho luồng ghi và <b>Dapper</b> cho luồng đọc tải cao.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-        <img src="https://img.shields.io/badge/YARP-0078D4?style=flat-square" />
-        <img src="https://img.shields.io/badge/MSSQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🛒 <a href="https://github.com/QuangDung12042004/NexusCommerce">NexusCommerce</a></h3>
-      <p><i>Nền tảng E-Commerce backend chuẩn Clean Architecture & CQRS.</i></p>
-      <ul>
-        <li><b>Clean Architecture:</b> Phân tầng rõ rệt giữa Domain, Application, và Infrastructure.</li>
-        <li><b>CQRS Pattern:</b> Tách riêng các luồng Command (tạo/sửa) và Query (đọc) để tăng khả năng scale.</li>
-        <li><b>Service Boundaries:</b> Sẵn sàng mở rộng thành hệ thống Microservices hoàn chỉnh.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" />
-        <img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-        <img src="https://img.shields.io/badge/Clean_Architecture-22C55E?style=flat-square" />
-        <img src="https://img.shields.io/badge/CQRS-0284C7?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
-### 📊 Engineering Stats
-
-<div align="center">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=QuangDung12042004&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00f2fe&icon_color=7000ff&text_color=94a3b8" alt="GitHub Stats" />
-  &nbsp;
-  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=QuangDung12042004&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00f2fe&text_color=94a3b8" alt="Top Languages" />
-</div>
 
 <br>
