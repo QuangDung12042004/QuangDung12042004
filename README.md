@@ -1,139 +1,160 @@
-<!-- ==================== VIETNAMESE CYBER-HERITAGE HEADER ==================== -->
-<div align="center">
-  <img width="100%" src="image_1.png" alt="LUONG QUANG DUNG - Cyber Dong Son Drum Banner" />
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Deep Obsidian Background Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070B14" />
+      <stop offset="45%" stop-color="#0D1322" />
+      <stop offset="100%" stop-color="#080C16" />
+    </linearGradient>
 
-  <a href="https://github.com/QuangDung12042004">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=1000&color=00F5D4&center=true&vCenter=true&width=720&lines=%5BSYS%5D+BACKEND+DEVELOPER+%E2%80%A2+C%23+%26+.NET+8+%E2%80%A2+DISTRIBUTED+SYSTEMS;%5BARCH%5D+CLEAN+ARCHITECTURE+%E2%80%A2+CQRS+%E2%80%A2+MICROSERVICES+%E2%80%A2+YARP;%5BNODE%5D+HO+CHI+MINH+CITY%2C+VIETNAM+%F0%9F%87%BB%F0%9F%87%B3+%E2%80%A2+STATUS%3A+ONLINE" alt="Typing SVG" />
-  </a>
+    <!-- Bronze Gold & Cyber Cyan Glows -->
+    <radialGradient id="drumGlow" cx="245" cy="160" r="185" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EAB308" stop-opacity="0.22" />
+      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#070B14" stop-opacity="0" />
+    </radialGradient>
 
-  <p>
-    <a href="https://linkedin.com/in/gnud1204">
-      <img src="https://img.shields.io/badge/LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=00F5D4" alt="LinkedIn" />
-    </a>
-    <a href="mailto:quangdung12042004@gmail.com">
-      <img src="https://img.shields.io/badge/Email-0F172A?style=for-the-badge&logo=gmail&logoColor=FF9F00" alt="Email" />
-    </a>
-    <a href="https://instagram.com/gnud.1204">
-      <img src="https://img.shields.io/badge/Instagram-0F172A?style=for-the-badge&logo=instagram&logoColor=E879F9" alt="Instagram" />
-    </a>
-    <a href="https://facebook.com/quangdung123456">
-      <img src="https://img.shields.io/badge/Facebook-0F172A?style=for-the-badge&logo=facebook&logoColor=00B4D8" alt="Facebook" />
-    </a>
-  </p>
+    <radialGradient id="sunStarGrad" cx="245" cy="160" r="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="55%" stop-color="#EAB308" />
+      <stop offset="100%" stop-color="#B45309" />
+    </radialGradient>
 
-  <br/>
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0f19,30:00f5d4,70:ffd700,100:0b0f19&height=3" alt="Cyan-Gold Cyber Divider" />
-</div>
+    <linearGradient id="goldCyanLine" x1="455" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EAB308" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </linearGradient>
 
-<!-- ==================== 01 // KERNEL MANIFEST (BẢN SẮC & CHIẾN LƯỢC) ==================== -->
-### 💮 `01` · KERNEL SPECIFICATION (`BẢN SẮC & CHIẾN LƯỢC`)
+    <linearGradient id="borderAccent" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="22%" stop-color="#EAB308" stop-opacity="0.6" />
+      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#0D1117" />
+    </linearGradient>
 
-```csharp
-namespace Gnud.Core;
+    <pattern id="techGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.45" />
+    </pattern>
+  </defs>
 
-public sealed record BackendDeveloper
-{
-    // Identity & Cultural Roots
-    public string Name           => "Lương Quang Dũng (Gnud)";
-    public string Node           => "Ho Chi Minh City, Vietnam 🇻🇳";
-    public string Role           => "Backend Software Developer (.NET 8)";
-    public string CurrentFocus   => "Enterprise Hotel Management & Distributed Microservices";
+  <!-- Base Canvas -->
+  <rect width="1200" height="320" rx="14" fill="url(#bgGrad)" />
+  <rect width="1200" height="320" rx="14" fill="url(#techGrid)" />
+  <circle cx="245" cy="160" r="185" fill="url(#drumGlow)" />
 
-    // Tech Arsenal & Architectural Philosophy
-    public string[] CoreDesign   => ["Clean Architecture", "CQRS", "High-Concurrency APIs", "Event-Driven"];
-    public string[] NextHorizon  => ["Cloud-Native Distributed Systems", "RabbitMQ Message-Driven", "Automated CI/CD"];
-    public string[] OfflineState => ["Strength Training", "Competitive PC Gaming"];
-}
-```
+  <!-- Subtle Circuit Traces -->
+  <g stroke="#1E293B" stroke-width="1.2" fill="none">
+    <path d="M 392 110 H 440 L 456 94 H 1140" />
+    <path d="M 398 160 H 435" stroke="#38BDF8" stroke-opacity="0.35" />
+    <path d="M 385 215 H 440 L 458 233 H 920" />
+  </g>
+  <circle cx="456" cy="94" r="2.5" fill="#EAB308" />
+  <circle cx="435" cy="160" r="2.5" fill="#38BDF8" />
+  <circle cx="458" cy="233" r="2.5" fill="#38BDF8" />
 
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0f19,40:00f5d4,60:00b4d8,100:0b0f19&height=1" alt="Divider" />
-</div>
+  <!-- ==================== DONG SON BRONZE DRUM (CYBER VECTOR) ==================== -->
+  <g id="dong-son-drum">
+    <!-- Outer Rotating Holographic Cyber Ring -->
+    <g>
+      <circle cx="245" cy="160" r="146" stroke="#38BDF8" stroke-width="1.2" stroke-opacity="0.45" stroke-dasharray="48 16 8 16" />
+      <circle cx="245" cy="160" r="138" stroke="#EAB308" stroke-width="1" stroke-opacity="0.5" stroke-dasharray="6 10" />
+      <animateTransform attributeName="transform" type="rotate" from="0 245 160" to="360 245 160" dur="90s" repeatCount="indefinite" />
+    </g>
 
-<!-- ==================== 02 // TECH ECOSYSTEM (HỆ THỐNG KỸ THUẬT) ==================== -->
-### 💮 `02` · TECH ECOSYSTEM (`HỆ THỐNG KỸ THUẬT`)
+    <!-- Drum Disc Base -->
+    <circle cx="245" cy="160" r="130" fill="#090D16" stroke="#EAB308" stroke-width="1.5" stroke-opacity="0.75" />
 
-<div align="center">
-  <br/>
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,docker,rabbitmq,githubactions,git,visualstudio,react,vite,tailwind,redux&perline=11&theme=dark" alt="Tech Icons" />
-  <br/><br/>
+    <!-- Outer Geometric Sawtooth & Dot Ring -->
+    <circle cx="245" cy="160" r="122" stroke="#EAB308" stroke-width="3.5" stroke-opacity="0.45" stroke-dasharray="2 6" />
+    <circle cx="245" cy="160" r="114" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.4" />
 
-  <p>
-    <img src="https://img.shields.io/badge/C%23-0F172A?style=for-the-badge&logo=dotnet&logoColor=FF9F00" alt="C#" />
-    <img src="https://img.shields.io/badge/.NET%208-0F172A?style=for-the-badge&logo=dotnet&logoColor=00F5D4" alt=".NET 8" />
-    <img src="https://img.shields.io/badge/EF%20Core-0F172A?style=for-the-badge&logo=dotnet&logoColor=38BDF8" alt="EF Core" />
-    <img src="https://img.shields.io/badge/Dapper-0F172A?style=for-the-badge&logo=nuget&logoColor=38BDF8" alt="Dapper" />
-    <img src="https://img.shields.io/badge/Microservices-0F172A?style=for-the-badge&logo=docker&logoColor=00F5D4" alt="Microservices" />
-    <img src="https://img.shields.io/badge/Clean%20Architecture-0F172A?style=for-the-badge" alt="Clean Architecture" />
-    <img src="https://img.shields.io/badge/CQRS-0F172A?style=for-the-badge" alt="CQRS" />
-    <img src="https://img.shields.io/badge/JWT%20Auth-0F172A?style=for-the-badge&logo=jsonwebtokens&logoColor=E879F9" alt="JWT Auth" />
-  </p>
+    <!-- Chim Lac Flight Corridor (Slow Counter-Rotation) -->
+    <g>
+      <!-- Top Lac Bird -->
+      <path d="M 222 65 C 234 61, 248 62, 264 66 L 278 63 L 263 69 C 254 72, 246 72, 238 69 L 226 75 L 233 68 Z" fill="#FACC15" opacity="0.9" />
+      <path d="M 243 64 L 235 54 L 249 63 Z" fill="#38BDF8" opacity="0.85" />
 
-  <p>
-    <img src="https://img.shields.io/badge/RabbitMQ-0F172A?style=for-the-badge&logo=rabbitmq&logoColor=FF9F00" alt="RabbitMQ" />
-    <img src="https://img.shields.io/badge/SQL%20Server-0F172A?style=for-the-badge&logo=microsoftsqlserver&logoColor=EF4444" alt="SQL Server" />
-    <img src="https://img.shields.io/badge/Docker-0F172A?style=for-the-badge&logo=docker&logoColor=38BDF8" alt="Docker" />
-    <img src="https://img.shields.io/badge/GitHub%20Actions-0F172A?style=for-the-badge&logo=githubactions&logoColor=38BDF8" alt="GitHub Actions" />
-    <img src="https://img.shields.io/badge/React-0F172A?style=for-the-badge&logo=react&logoColor=00F5D4" alt="React" />
-    <img src="https://img.shields.io/badge/Vite-0F172A?style=for-the-badge&logo=vite&logoColor=818CF8" alt="Vite" />
-    <img src="https://img.shields.io/badge/Tailwind%20CSS-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/TanStack%20Query-0F172A?style=for-the-badge&logo=reactquery&logoColor=FF4154" alt="TanStack Query" />
-  </p>
-</div>
+      <!-- Bottom Lac Bird -->
+      <path d="M 268 255 C 256 259, 242 258, 226 254 L 212 257 L 227 251 C 236 248, 244 248, 252 251 L 264 245 L 257 252 Z" fill="#FACC15" opacity="0.9" />
+      <path d="M 247 256 L 255 266 L 241 257 Z" fill="#38BDF8" opacity="0.85" />
 
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0f19,40:ffd700,60:00f5d4,100:0b0f19&height=1" alt="Divider" />
-</div>
+      <!-- Right Lac Bird -->
+      <path d="M 340 137 C 344 149, 343 163, 339 179 L 342 193 L 336 178 C 333 169, 333 161, 336 153 L 330 141 L 337 148 Z" fill="#FACC15" opacity="0.9" />
+      <path d="M 341 158 L 351 150 L 342 164 Z" fill="#38BDF8" opacity="0.85" />
 
-<!-- ==================== 03 // ACTIVE DEPLOYMENTS (DỰ ÁN ĐÃ TRIỂN KHAI) ==================== -->
-### 💮 `03` · ACTIVE DEPLOYMENTS (`CÁC HỆ THỐNG HOẠT ĐỘNG`)
+      <!-- Left Lac Bird -->
+      <path d="M 150 183 C 146 171, 147 157, 151 141 L 148 127 L 154 142 C 157 151, 157 159, 154 167 L 160 179 L 153 172 Z" fill="#FACC15" opacity="0.9" />
+      <path d="M 149 162 L 139 170 L 148 156 Z" fill="#38BDF8" opacity="0.85" />
 
-<div align="center">
-  <br/>
+      <!-- Diagonal Geometric Totem Markers -->
+      <circle cx="311" cy="94" r="2.5" fill="#38BDF8" />
+      <circle cx="311" cy="226" r="2.5" fill="#38BDF8" />
+      <circle cx="179" cy="226" r="2.5" fill="#38BDF8" />
+      <circle cx="179" cy="94" r="2.5" fill="#38BDF8" />
 
-  <a href="https://github.com/QuangDung12042004/HotelSystems">
-    <img src="https://img.shields.io/badge/🔥_HOTELSYSTEMS-ENTERPRISE%20HOTEL%20%26%20POS%20PLATFORM-0F172A?style=for-the-badge&logo=github&logoColor=00F5D4&labelColor=1E1B4B" alt="HotelSystems" />
-  </a>
-  <p>
-    Phân tán trên kiến trúc <b>Microservices</b> điều phối qua <b>YARP API Gateway</b> · Bảo đảm chống trùng lặp booking trong môi trường truy cập cao nhờ <b>Optimistic Concurrency (<code>RowVersion</code>)</b> · Hỗ trợ <b>Rate Limiting</b> tích hợp và truy cập dữ liệu lai cực nhanh qua <b>EF Core + Dapper</b>.
-  </p>
-  <p>
-    <code>.NET 8</code> &nbsp; <code>EF Core</code> &nbsp; <code>Dapper</code> &nbsp; <code>SQL Server</code> &nbsp; <code>YARP Gateway</code> &nbsp; <code>React</code>
-  </p>
+      <animateTransform attributeName="transform" type="rotate" from="360 245 160" to="0 245 160" dur="120s" repeatCount="indefinite" />
+    </g>
 
-  <br/><br/>
+    <!-- Inner Concentric Rings -->
+    <circle cx="245" cy="160" r="76" stroke="#EAB308" stroke-width="1.2" stroke-opacity="0.65" />
+    <circle cx="245" cy="160" r="68" stroke="#EAB308" stroke-width="3" stroke-opacity="0.5" stroke-dasharray="1.5 5" />
+    <circle cx="245" cy="160" r="54" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.5" />
+    <circle cx="245" cy="160" r="47" stroke="#EAB308" stroke-width="1" stroke-opacity="0.6" />
 
-  <a href="https://github.com/QuangDung12042004/NexusCommerce">
-    <img src="https://img.shields.io/badge/🦅_NEXUSCOMMERCE-SCALABLE%20E--COMMERCE%20BACKEND-0F172A?style=for-the-badge&logo=github&logoColor=FF9F00&labelColor=1E1B4B" alt="NexusCommerce" />
-  </a>
-  <p>
-    Kiến tạo nền tảng vững chắc bằng <b>Clean Architecture</b> tách biệt chặt chẽ giữa các nghiệp vụ · Triển khai mô hình <b>CQRS</b> tối ưu hóa hiệu năng độc lập cho truy vấn dữ liệu và cập nhật dữ liệu · Phân ranh giới các module độc lập cao, sẵn sàng cho việc nâng cấp mở rộng lớn.
-  </p>
-  <p>
-    <code>C#</code> &nbsp; <code>.NET 8</code> &nbsp; <code>Clean Architecture</code> &nbsp; <code>CQRS</code> &nbsp; <code>SQL Server</code>
-  </p>
-</div>
+    <!-- Central 14-Pointed Dong Son Sun Star -->
+    <polygon
+      points="287,160 259.6,163.3 282.8,178.2 256.7,169.4 271.2,192.8 251.5,173.5 254.3,200.9 245,175 235.7,200.9 238.5,173.5 218.8,192.8 233.3,169.4 207.2,178.2 230.4,163.3 203,160 230.4,156.7 207.2,141.8 233.3,150.6 218.8,127.2 238.5,146.5 235.7,119.1 245,145 254.3,119.1 251.5,146.5 271.2,127.2 256.7,150.6 282.8,141.8 259.6,156.7"
+      fill="url(#sunStarGrad)"
+    />
+    <circle cx="245" cy="160" r="11" fill="#090D16" stroke="#FEF08A" stroke-width="1.5" />
+    <circle cx="245" cy="160" r="4.5" fill="#38BDF8" />
+  </g>
 
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0f19,40:00f5d4,60:ffd700,100:0b0f19&height=1" alt="Divider" />
-</div>
+  <!-- ==================== IDENTITY & TYPOGRAPHY ==================== -->
+  <g font-family="'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif">
+    <!-- Top Heritage Status Tag -->
+    <text x="456" y="78" fill="#38BDF8" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12.5" font-weight="600" letter-spacing="2.2">
+      ◈ VIETNAM DIGITAL HERITAGE  //  HO CHI MINH CITY
+    </text>
 
-<!-- ==================== 04 // ENGINEERING TELEMETRY (THỐNG KÊ HIỆU SUẤT) ==================== -->
-### 💮 `04` · LIVE TELEMETRY (`PHÂN TÍCH HIỆU SUẤT`)
+    <!-- Main Name -->
+    <text x="454" y="136" fill="#F8FAFC" font-size="44" font-weight="800" letter-spacing="2">
+      LUONG QUANG DUNG
+    </text>
 
-<div align="center">
-  <br/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=QuangDung12042004&show_icons=true&bg_color=0f172a&title_color=ffd700&icon_color=00f5d4&text_color=e2e8f0&border_color=1e1b4b&border_radius=12" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=QuangDung12042004&layout=compact&bg_color=0f172a&title_color=ffd700&text_color=e2e8f0&border_color=1e1b4b&border_radius=12" alt="Top Languages" />
+    <!-- Gold-to-Cyan Accent Bar -->
+    <rect x="456" y="151" width="620" height="2.5" rx="1.25" fill="url(#goldCyanLine)" />
 
-  <br/><br/>
+    <!-- Role & Alias -->
+    <text x="456" y="182" fill="#EAB308" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="16" font-weight="600" letter-spacing="2.5">
+      GNUD  ·  BACKEND SOFTWARE DEVELOPER
+    </text>
 
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=QuangDung12042004&bg_color=0f172a&color=00f5d4&line=ffd700&point=e879f9&area=true&area_color=1e1b4b&border_color=1e1b4b&radius=12" alt="Contribution Graph" />
-</div>
+    <!-- Sleek Tech Pills -->
+    <g font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11.5" font-weight="600" letter-spacing="1">
+      <rect x="456" y="206" width="116" height="30" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+      <text x="514" y="225" fill="#38BDF8" text-anchor="middle">C# / .NET 8</text>
 
-<br/>
+      <rect x="582" y="206" width="142" height="30" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+      <text x="653" y="225" fill="#E2E8F0" text-anchor="middle">MICROSERVICES</text>
 
-<!-- ==================== FOOTER ==================== -->
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=blur&color=0:00f5d4,50:1e1b4b,100:0b0f19&height=95&section=footer&text=VIETNAM%20DIGITAL%20HERITAGE%20%2F%2F%20SCALING%20THE%20FUTURE&fontSize=14&fontColor=ffffff&fontAlignY=70" alt="Footer Banner" />
-</div>
+      <rect x="734" y="206" width="178" height="30" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+      <text x="823" y="225" fill="#E2E8F0" text-anchor="middle">CLEAN ARCHITECTURE</text>
+
+      <rect x="922" y="206" width="178" height="30" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+      <text x="1011" y="225" fill="#EAB308" text-anchor="middle">DISTRIBUTED SYSTEMS</text>
+    </g>
+  </g>
+
+  <!-- Corner HUD Brackets -->
+  <g stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.5" fill="none">
+    <path d="M 20 36 V 20 H 36" />
+    <path d="M 1164 20 H 1180 V 36" />
+    <path d="M 20 284 V 300 H 36" />
+    <path d="M 1164 300 H 1180 V 284" />
+  </g>
+
+  <!-- Bottom Edge Highlight -->
+  <rect x="0" y="317" width="1200" height="3" fill="url(#borderAccent)" />
+</svg>
