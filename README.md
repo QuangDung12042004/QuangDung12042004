@@ -8,22 +8,6 @@
   </a>
 
   <br/>
-
-  <!-- Connect Badges (Unified Sleek Dark Theme) -->
-  <p>
-    <a href="https://linkedin.com/in/gnud1204">
-      <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=38BDF8" alt="LinkedIn" />
-    </a>
-    <a href="mailto:quangdung12042004@gmail.com">
-      <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
-    </a>
-    <a href="https://instagram.com/gnud.1204">
-      <img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" />
-    </a>
-    <a href="https://facebook.com/quangdung123456">
-      <img src="https://img.shields.io/badge/Facebook-0D1117?style=for-the-badge&logo=facebook&logoColor=1877F2" alt="Facebook" />
-    </a>
-  </p>
 </div>
 
 
