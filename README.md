@@ -25,23 +25,31 @@
 ---
 
 <!-- ==================== SYSTEM SPECIFICATION ==================== -->
+<!-- ==================== SYSTEM SPECIFICATION ==================== -->
 ### `01` · System Specification
 
-```csharp
-namespace Gnud.Architecture;
-
-public sealed record DeveloperProfile
-{
-    public string Name         => "Lương Quang Dũng (Gnud)";
-    public string Role         => "Backend Software Developer";
-    public string Location     => "Ho Chi Minh City, Vietnam";
-    public string CurrentFocus => "Enterprise Hotel Management & Microservices Platforms";
-
-    public string[] CoreDesign   => ["Clean Architecture", "CQRS", "High-Concurrency APIs", "Event-Driven"];
-    public string[] NextHorizon  => ["Cloud-Native Distributed Systems", "RabbitMQ Messaging", "Automated CI/CD"];
-    public string[] OfflineMode  => ["Strength Training", "Competitive PC Gaming"];
-}
-```
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⚡ Identity & Focus</h4>
+      <ul>
+        <li><b>Engineer:</b> Lương Quang Dũng (<code>Gnud</code>)</li>
+        <li><b>Role:</b> Backend Software Developer (<code>.NET 8</code>)</li>
+        <li><b>Location:</b> Ho Chi Minh City, Vietnam</li>
+        <li><b>Focus:</b> Enterprise Hotel Management & Microservices</li>
+        <li><b>Status:</b> <img src="https://img.shields.io/badge/ONLINE-Building_at_Scale-0F172A?style=flat-square&labelColor=0284C7" align="absmiddle" alt="Status" /></li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🧭 Architecture & Horizon</h4>
+      <ul>
+        <li><b>Core Design:</b> <code>Clean Architecture</code> · <code>CQRS</code> · <code>Event-Driven</code> · <code>High-Concurrency APIs</code></li>
+        <li><b>Next Horizon:</b> <code>Cloud-Native Systems</code> · <code>RabbitMQ</code> · <code>Automated CI/CD</code></li>
+        <li><b>Offline Mode:</b> <code>Strength Training</code> · <code>Competitive PC Gaming</code></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
